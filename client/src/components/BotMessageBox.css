@@ -1,0 +1,14 @@
+.bot-msg {
+  background-color: rgb(150, 150, 150);
+  padding: 10px;
+  color: white;
+  font-size: medium;
+  border-radius: 12px;
+  border-bottom-left-radius: 3px;
+  margin-left: 4px;
+  max-width: 650px;
+  border: none;
+  /* height: 44px; */
+  overflow: auto;
+  /* display: inline; */
+}

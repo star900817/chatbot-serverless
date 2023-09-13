@@ -1,0 +1,66 @@
+.home-wrapper {
+  height: 100%;
+  position: relative;
+  background-color: rgb(200, 200, 200);
+}
+
+.header-container {
+  text-align: center;
+  font-size: 32px;
+}
+.header-container h1 {
+  padding-top: 6px;
+  font-size: revert;
+}
+
+.main-container {
+  width: 810px;
+  margin: auto;
+}
+.chat-container {
+  height: 550px;
+  width: 800px;
+  padding-top: 15px;
+  overflow: auto;
+}
+
+.social-container {
+  /* width: 700px; */
+  margin: auto;
+  text-align: center;
+  margin-top: 14px;
+}
+.social-container div a {
+  text-decoration: none;
+}
+.social-container img {
+  margin-top: 4px;
+  margin-bottom: 13px;
+  width: 35px;
+  height: 35px;
+  background-color: rebeccapurple;
+  border-radius: 10px;
+}
+
+.user-message-container {
+  background-color: dodgerblue;
+  padding: 10px;
+  color: white;
+  font-size: medium;
+  display: inline;
+  border-radius: 12px;
+  border-bottom-right-radius: 0;
+  float: right;
+  margin-top: 8px;
+}
+
+.bot-message-container {
+  margin-top: 60px;
+  display: flex;
+}
+
+.openai-icon {
+  background-color: rgb(25, 195, 125);
+  color: white;
+  border-radius: 10px;
+}
